@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+</head>
+
+<body class=" mx-auto p-3">
+    <main class=" mx-auto p-3 ">
+        <div class="contianer-fluid  w-50 p-3 gap-3">
+            <h2 class="text-center text-info">DOM form</h2>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" /required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" /required>
+
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" /required>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="validationCustom03" /required>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">pin</label>
+                    <input type="number" class="form-control" id="validationCustom04" /required>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option" /required>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option" /required>
+                        <label class="form-check-label" for="exampleRadios2">
+                            Female
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                            value="option" /required>
+                        <label class="form-check-label" for="exampleRadios3">
+                            Neutral
+
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Food</label>
+                    <select class="form-select" id="validationCustom05" /required>
+                        <option selected disabled value="">Choose...</option>
+                        <option value="Briyani">Briyani</option>
+                        <option value="Veg rice">Veg rice</option>
+                        <option value="Veg fried">Veg fried rice</option>
+                        <option value="Paneer rice">Paneer rice</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">State</label>
+                    <select class="form-select" id="validationCustom06" /required>
+                        <option selected disabled value="">Choose...</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Country</label>
+                    <select class="form-select" id="validationCustom07" /required>
+                        <option selected disabled value="">Choose...</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="UK">UK</option>
+                        <option value="US">US</option>
+                    </select>
+                </div>
+                <div class="col-12 gap-3 p-3">
+                    <button class="btn btn-primary" type="submit" id="submit">Submit form</button>
+                </div>
+            </form>
+            <table id="table" class="table">
+                <tr class="p-3 alert alert-primary">
+                    <th class="p-3 alert alert-primary " scope="col">First name</th>
+                    <th class="p-3 alert alert-primary " scope="col">Last name</th>
+                    <th class="p-3 alert alert-primary " scope="col">Last name</th>
+                    <th class="p-3 alert alert-primary" scope="col">username</th>
+                    <th class="p-3 alert alert-primary" scope="col">Address</th>
+                    <th class="p-3 alert alert-primary" scope="col">Pin</th>
+                    <th class="p-3 alert alert-primary" scope="col">Gender</th>
+                    <th class="p-3 alert alert-primary" scope="col">Food</th>
+                    <th class="p-3 alert alert-primary" scope="col">State</th>
+                    <th class="p-3 alert alert-primary" scope="col">Country</th>
+                </tr>
+            </table>
+        </div>
+        <script> </script>
+
+    </main>
+</body>
+
+</html>
